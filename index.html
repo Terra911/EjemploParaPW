@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Ejemplo de página con Javascript
+    </title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <h1 id="encabezado" onclick="noTocar()">Acá comienza mi página</h1>
+        <button onclick="iniciarSesion()">Iniciar sesion</button>
+        <img src="programacion.jpg">
+        <p></p>
+        <button onclick="saludar()">Haz click aquí</button>
+
+        <button onclick="botonDeConfirmar()" style="background-color: brown;">Confirmar envio de opción</button>
+
+        <button onclick="saludoPersonalizado()" style="background-color: springgreen;">Generar saludo</button>
+    </div>
+    <div>
+        <p></p>
+        <img src="gp-monaco.webp">
+        <p></p>
+        <div id="coments"></div>
+        <h3>Envianos tu comentario</h3>
+        <textarea id="comentario"></textarea>
+        <p></p>
+        <button onclick="subirComentario()">Enviar comentario</button>
+        <button onclick="eliminarComentario()" >Eliminar comentario</button>
+
+        <p></p>
+        <div id="zonaComentarios"></div>
+        <button onclick="publicar()">Publicar</button>
+
+    </div>
+    <script src="miScript.js"></script>
+</body>
+
+</html>
